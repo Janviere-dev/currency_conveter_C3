@@ -14,22 +14,10 @@
         <input type="number" id="amount" placeholder="Enter amount">
 
         <label for="fromCurrency">From:</label>
-        <select id="fromCurrency">
-            <option value="USD">USD</option>
-            <option value="JPY">JPY</option>
-            <option value="EUR">EUR</option>
-            <option value="RUB">RUB</option>
-            <option value="GBP">GBP</option>
-        </select>
-
+       <select id="fromCurrency"></select> 
+       <select id="toCurrency"></select>
         <label for="toCurrency">To:</label>
-        <select id="toCurrency">
-            <option value="USD">USD</option>
-            <option value="JPY">JPY</option>
-            <option value="EUR">EUR</option>
-            <option value="RUB">RUB</option>
-            <option value="GBP">GBP</option>
-        </select>
+        
 
         <button onclick="convertCurrency()">Convert</button>
         <p id="result"></p>
